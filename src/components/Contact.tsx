@@ -5,9 +5,9 @@ const Contact: React.FC = () => {
   const [copiedEmail, setCopiedEmail] = useState(false);
 
   const contactInfo = {
-    email: "your.email@example.com",
-    linkedin: "https://linkedin.com/in/your-profile",
-    discord: "YourUsername#1234"
+    email: "aritaspavitra@gmail.com",
+    linkedin: "https://www.linkedin.com/in/pavitra-aritas-4bb05b140/",
+    discord: "Available on request"
   };
 
   const copyEmail = async () => {

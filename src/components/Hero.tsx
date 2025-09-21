@@ -63,12 +63,13 @@ const Hero: React.FC = () => {
             
             <div className="space-y-4 text-gray-300 max-w-2xl mx-auto">
               <p className="text-xl">
-                Welcome to my digital investigation. I solve problems with code,
-                craft user experiences, and build digital mysteries.
+                Welcome to Pavitra Aritas' digital investigation. I solve problems with code,
+                craft AI-powered solutions, and build scalable applications.
               </p>
               <p className="text-lg opacity-80">
-                Specializing in frontend development, UI/UX design, and creating
-                interactive web experiences that engage and inspire.
+                Experienced software engineer with over 3 years in AI-powered solutions, 
+                cloud services, and full-stack development. Passionate about advancing technology 
+                and committed to delivering high-quality, reliable software solutions.
               </p>
             </div>
 
@@ -77,7 +78,8 @@ const Hero: React.FC = () => {
               <span className="px-3 py-1 border border-cyan-400/30 rounded bg-cyan-400/10">TypeScript</span>
               <span className="px-3 py-1 border border-cyan-400/30 rounded bg-cyan-400/10">Node.js</span>
               <span className="px-3 py-1 border border-cyan-400/30 rounded bg-cyan-400/10">Python</span>
-              <span className="px-3 py-1 border border-cyan-400/30 rounded bg-cyan-400/10">UI/UX</span>
+              <span className="px-3 py-1 border border-cyan-400/30 rounded bg-cyan-400/10">AWS</span>
+              <span className="px-3 py-1 border border-cyan-400/30 rounded bg-cyan-400/10">AI/ML</span>
             </div>
           </div>
         )}

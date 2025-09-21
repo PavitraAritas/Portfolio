@@ -6,25 +6,25 @@ const Experience: React.FC = () => {
 
   const experiences = [
     {
-      title: "Senior Frontend Developer",
-      company: "TechCorp Solutions",
-      period: "2022 - Present",
-      description: "Led development of modern web applications using React, TypeScript, and Node.js. Improved user experience by 40% through innovative UI designs.",
-      skills: ["React", "TypeScript", "GraphQL", "AWS"]
+      title: "Graduate Research Assistant",
+      company: "UMass Boston",
+      period: "May 2025 - December 2025",
+      description: "Built a Research Assistant Tool, an AI-powered library search tool using RAG pipelines (LangChain, LlamaIndex, ChromaDB, vector embeddings) integrated with LLMs (GPT, Llama3) for natural language queries over books, articles, and academic content.",
+      skills: ["LangChain", "LlamaIndex", "ChromaDB", "AWS", "Angular", "GPT API"]
     },
     {
-      title: "Full Stack Developer",
-      company: "StartupXYZ",
-      period: "2020 - 2022",
-      description: "Built scalable web applications from concept to deployment. Collaborated with cross-functional teams to deliver high-quality products.",
-      skills: ["Vue.js", "Python", "PostgreSQL", "Docker"]
+      title: "Software Engineer",
+      company: "Infosys Limited",
+      period: "May 2021 - November 2023",
+      description: "Spearheaded a high-performance React dashboard for a pharmaceutical application, enhancing user experience and reducing failures by 20%; optimized backend with AWS Lambda and RESTful API Gateway, improving response times by 25%.",
+      skills: ["React", "Node.js", "Redux", "AWS", "Lambda", "DynamoDB"]
     },
     {
-      title: "Frontend Developer",
-      company: "DigitalAgency Inc",
-      period: "2018 - 2020",
-      description: "Developed responsive websites and web applications for various clients. Specialized in creating engaging user interfaces.",
-      skills: ["JavaScript", "CSS", "HTML", "jQuery"]
+      title: "Master's in Information Technology",
+      company: "University of Massachusetts Boston",
+      period: "January 2024 - Current",
+      description: "Currently pursuing Master's in Information Technology with a GPA of 3.9. Focusing on advanced software engineering, AI/ML, and cloud computing technologies.",
+      skills: ["AI/ML", "Cloud Computing", "Software Engineering", "Research"]
     }
   ];
 

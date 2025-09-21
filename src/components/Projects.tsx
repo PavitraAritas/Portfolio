@@ -6,31 +6,31 @@ const Projects: React.FC = () => {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "InboXpert",
       classification: "CASE #001",
-      description: "Modern e-commerce platform with payment integration, user authentication, and admin dashboard. Built with React and Node.js.",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
-      github: "https://github.com/username/ecommerce-platform",
-      demo: "https://demo-ecommerce.netlify.app",
+      description: "Developed an AI-powered email client using TypeScript and Next.js with advanced features like AI-assisted email drafting, retrieval-augmented generation, and a command bar for efficient interactions. Integrated user authentication and email synchronization via Clerk and Oringo API.",
+      tech: ["Next.js 14", "TypeScript", "Prisma", "PostgreSQL", "AWS", "OpenAI", "Stripe"],
+      github: "https://github.com/PavitraAritas/InboXpert",
+      demo: "#",
       status: "Completed"
     },
     {
-      title: "Task Management App",
+      title: "Amazon Review Sentiment Analysis",
       classification: "CASE #002", 
-      description: "Collaborative task management application with real-time updates, team collaboration, and advanced filtering capabilities.",
-      tech: ["Vue.js", "Firebase", "Vuetify", "Socket.io"],
-      github: "https://github.com/username/task-manager",
-      demo: "https://task-manager-demo.vercel.app",
-      status: "Active"
+      description: "Engineered a multi-stage NLP pipeline with spaCy, Regex, and NLTK for Amazon reviews. Applied TF-IDF with Scikit-learn and trained a Logistic Regression classifier, achieving Macro-F1 = 0.808. Leveraged BERTopic for theme extraction and ARIMA for sentiment forecasting.",
+      tech: ["Python", "Tableau", "Selenium", "SQLite", "Machine Learning", "BERT", "NLTK"],
+      github: "https://github.com/PavitraAritas/amazon-sentiment-analysis",
+      demo: "#",
+      status: "Completed"
     },
     {
-      title: "Weather Dashboard",
+      title: "Fashionable",
       classification: "CASE #003",
-      description: "Interactive weather dashboard with location-based forecasts, historical data, and beautiful data visualizations.",
-      tech: ["JavaScript", "D3.js", "REST APIs", "CSS Grid"],
-      github: "https://github.com/username/weather-dashboard",
-      demo: "https://weather-dash-demo.netlify.app",
-      status: "Archived"
+      description: "Developed a social media and e-commerce site using ReactJS, Firebase, JavaScript, and TailwindCSS. Implemented features like user posts, wishlists, comments, image price tags, secure authentication, user profiles, and shopping cart with checkout functionality.",
+      tech: ["ReactJS", "Firebase", "TailwindCSS", "JavaScript"],
+      github: "https://github.com/PavitraAritas/Fashionable",
+      demo: "#",
+      status: "Completed"
     }
   ];
 
