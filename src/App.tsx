@@ -3,7 +3,7 @@ import { ChevronDown, Github, Mail, Linkedin, MessageCircle, Code2, Terminal, Za
 import Hero from './components/Hero';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
-import Puzzle from './components/Puzzle';
+import Skills from './components/Puzzle';
 import Contact from './components/Contact';
 import Navigation from './components/Navigation';
 
@@ -42,7 +42,7 @@ function App() {
       <Hero />
       <Experience />
       <Projects />
-      <Puzzle />
+      <Skills />
       <Contact />
     </div>
   );

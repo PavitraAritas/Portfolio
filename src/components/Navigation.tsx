@@ -9,7 +9,7 @@ const Navigation: React.FC<NavigationProps> = ({ currentSection }) => {
     { name: 'About', color: 'bg-cyan-400' },
     { name: 'Experience', color: 'bg-amber-400' },
     { name: 'Projects', color: 'bg-pink-400' },
-    { name: 'Puzzle', color: 'bg-purple-400' },
+    { name: 'Skills', color: 'bg-purple-400' },
     { name: 'Contact', color: 'bg-green-400' }
   ];
 
