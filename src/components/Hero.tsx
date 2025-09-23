@@ -81,7 +81,7 @@ const Hero: React.FC = () => {
             </div>
 
             <h1 className="text-6xl md:text-8xl font-bold font-mono">
-              <span className="text-cyan-400 text-7xl md:text-9xl">></span> 
+              <span className="text-cyan-400 text-7xl md:text-9xl">{'>'}</span> 
               <span className="text-white drop-shadow-lg">{typedText}</span>
               <span className="animate-pulse">|</span>
             </h1>
