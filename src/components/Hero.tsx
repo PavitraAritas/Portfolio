@@ -4,7 +4,7 @@ import { ChevronDown, Terminal, Code2 } from 'lucide-react';
 const Hero: React.FC = () => {
   const [revealed, setRevealed] = useState(false);
   const [typedText, setTypedText] = useState('');
-  const fullText = "Hello, I'm a Software Developer";
+  const fullText = "Hello, I'm Pavitra Aritas, a Software Developer";
 
   useEffect(() => {
     const timer = setTimeout(() => setRevealed(true), 1500);
@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
       if (index > fullText.length) {
         clearInterval(typeTimer);
       }
-    }, 50);
+    }, 30);
 
     return () => clearInterval(typeTimer);
   }, [revealed]);
@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
           </div>
         ) : (
           <div className="space-y-8 animate-fade-in">
-            <h1 className="text-6xl md:text-8xl font-bold font-mono">
+            <h1 className="text-6xl md:text-7xl font-bold font-mono">
               <span className="text-cyan-400">&gt;</span> 
               <span className="text-white">{typedText}</span>
               <span className="animate-pulse">|</span>
@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
             
             <div className="space-y-4 text-gray-300 max-w-2xl mx-auto">
               <p className="text-xl">
-                Welcome to Pavitra Aritas' digital investigation. I solve problems with code,
+                I love to solve problems with code,
                 craft AI-powered solutions, and build scalable applications.
               </p>
               <p className="text-lg opacity-80">
