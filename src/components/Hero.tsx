@@ -61,13 +61,16 @@ const Hero: React.FC = () => {
                 <div className="w-32 h-32 rounded-full border-4 border-cyan-400/30 overflow-hidden bg-gray-800 flex items-center justify-center group-hover:border-cyan-400/60 transition-all duration-300">
                   {/* Placeholder - Replace src with your photo */}
                   <img 
-                    src="/portfolio/portfolio_image.jpeg" 
+                    src="./portfolio/portfolio_image.jpeg" 
                     alt="Pavitra Aritas" 
                     className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity duration-300"
                     onError={(e) => {
                       // Fallback if image doesn't load
                       e.currentTarget.style.display = 'none';
-                      e.currentTarget.nextElementSibling!.style.display = 'flex';
+                      const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
+                      if (nextElement) {
+                        nextElement.style.display = 'flex';
+                      }
                     }}
                   />
                   {/* Fallback placeholder */}
