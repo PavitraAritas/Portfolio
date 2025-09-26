@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
       if (index > fullText.length) {
         clearInterval(typeTimer);
       }
-    }, 30);
+    }, 80);
 
     return () => clearInterval(typeTimer);
   }, [revealed]);
@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
                 <div className="w-32 h-32 rounded-full border-4 border-cyan-400/30 overflow-hidden bg-gray-800 flex items-center justify-center group-hover:border-cyan-400/60 transition-all duration-300">
                   {/* Placeholder - Replace src with your photo */}
                   <img 
-                    src="/api/placeholder/128/128" 
+                    src="/portfolio/portfolio_image.jpeg" 
                     alt="Pavitra Aritas" 
                     className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity duration-300"
                     onError={(e) => {
@@ -80,19 +80,12 @@ const Hero: React.FC = () => {
               </div>
             </div>
 
-            <h1 className="text-6xl md:text-8xl font-bold font-mono">
+            <h1 className="text-6xl md:text-7xl font-bold font-mono">
               <span className="text-cyan-400 text-7xl md:text-9xl">{'>'}</span> 
               <span className="text-white drop-shadow-lg">{typedText}</span>
               <span className="animate-pulse">|</span>
             </h1>
             
-            {/* Name highlight */}
-            <div className="text-center">
-              <h2 className="text-2xl md:text-3xl font-bold text-cyan-400 mb-2 tracking-wider">
-                PAVITRA ARITAS
-              </h2>
-              <div className="w-32 h-1 bg-gradient-to-r from-transparent via-cyan-400 to-transparent mx-auto"></div>
-            </div>
             
             <div className="space-y-4 text-gray-300 max-w-2xl mx-auto">
               <p className="text-xl">
